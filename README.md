@@ -2,7 +2,7 @@
 
 '[Cascade knowledge diffusion network for skin lesion diagnosis and segmentation]' published in Applied Soft Computing 
 
-by [Qiangguo Jin](https://scholar.google.com/citations?user=USoKG48AAAAJ), [Hui Cui](https://scholars.latrobe.edu.au/display/lcui), [Changming Sun](https://vision-cdc.csiro.au/changming.sun/), [Zhaopeng Meng](http://cic.tju.edu.cn/info/1170/2451.htm), [Leyi Wei](https://scholar.google.com/citations?user=0EAV03MAAAAJ&hl=zh-CN&oi=ao), [Ran Su](http://www.escience.cn/people/suran/index.html). 
+by [Qiangguo Jin](https://scholar.google.com/citations?user=USoKG48AAAAJ), [Hui Cui](https://scholars.latrobe.edu.au/display/lcui), [Changming Sun](https://vision-cdc.csiro.au/changming.sun/), [Zhaopeng Meng](http://cic.tju.edu.cn/info/1170/2451.htm), [Ran Su](http://www.escience.cn/people/suran/index.html). 
 
 ### Example results  
 
@@ -36,7 +36,7 @@ If the code is helpful for your research, please consider citing:
   @article{JIN2019,
     title = "Cascade knowledge diffusion network for skin lesion diagnosis and segmentation",
     year = "2020",
-    author = "Qiangguo Jin, Hui Cui, Changming Sun, Zhaopeng Meng, Leyi Wei, Ran Su",
+    author = "Qiangguo Jin, Hui Cui, Changming Sun, Zhaopeng Meng, Ran Su",
   }
 
   ```
