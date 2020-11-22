@@ -1,0 +1,237 @@
+Mutual Help
+seg_loss
+data name  ISIC2017
+loaded ../../log/ISIC2017_isicgen/coarse_seg_model.pt
+loaded ../../log/ISIC2017_isicgen/Integrate_Model_Cls_Ensemble_CAM_Att.pt
+../../../medical_data/ISIC_2017_Skin_Lesion/cache/task_images_224.npy
+	* Loading training data...
+(2000, 3, 224, 224)
+	* Loading validation data...
+(150, 3, 224, 224)
+ISICDataLoader labelled data size: 2000
+ISICDataLoader valid data size: 150
+2000
+150
+ISICDataLoader labelled data size: 2000
+ISICDataLoader valid data size: 150
+[Epoch 0] [seg loss: 0.720631] [seg acc: 0.858273]
+Vali Epoch: [0/100] Loss 0.656991  Acc 0.918179 
+ * Best vali seg acc: history = 0.0000, current = 0.9182
+[Epoch 1] [seg loss: 0.563587] [seg acc: 0.933271]
+Vali Epoch: [1/100] Loss 0.601477  Acc 0.924704 
+ * Best vali seg acc: history = 0.9182, current = 0.9247
+[Epoch 2] [seg loss: 0.523222] [seg acc: 0.938890]
+Vali Epoch: [2/100] Loss 0.583826  Acc 0.945165 
+ * Best vali seg acc: history = 0.9247, current = 0.9452
+[Epoch 3] [seg loss: 0.476424] [seg acc: 0.945747]
+Vali Epoch: [3/100] Loss 0.556925  Acc 0.940978 
+[Epoch 4] [seg loss: 0.445998] [seg acc: 0.947243]
+Vali Epoch: [4/100] Loss 0.479414  Acc 0.933933 
+[Epoch 5] [seg loss: 0.417166] [seg acc: 0.951943]
+Vali Epoch: [5/100] Loss 0.520543  Acc 0.945277 
+ * Best vali seg acc: history = 0.9452, current = 0.9453
+[Epoch 6] [seg loss: 0.394337] [seg acc: 0.951530]
+Vali Epoch: [6/100] Loss 0.470541  Acc 0.928812 
+[Epoch 7] [seg loss: 0.363165] [seg acc: 0.956911]
+Vali Epoch: [7/100] Loss 0.467686  Acc 0.923998 
+[Epoch 8] [seg loss: 0.355388] [seg acc: 0.953694]
+Vali Epoch: [8/100] Loss 0.476972  Acc 0.904639 
+[Epoch 9] [seg loss: 0.352188] [seg acc: 0.951132]
+Vali Epoch: [9/100] Loss 0.481065  Acc 0.909661 
+[Epoch 10] [seg loss: 0.335916] [seg acc: 0.953436]
+Vali Epoch: [10/100] Loss 0.426916  Acc 0.903489 
+[Epoch 11] [seg loss: 0.310101] [seg acc: 0.958495]
+Vali Epoch: [11/100] Loss 0.466337  Acc 0.951328 
+ * Best vali seg acc: history = 0.9453, current = 0.9513
+[Epoch 12] [seg loss: 0.294781] [seg acc: 0.958484]
+Vali Epoch: [12/100] Loss 0.445125  Acc 0.921237 
+[Epoch 13] [seg loss: 0.285765] [seg acc: 0.960587]
+Vali Epoch: [13/100] Loss 0.442988  Acc 0.932826 
+[Epoch 14] [seg loss: 0.276645] [seg acc: 0.962523]
+Vali Epoch: [14/100] Loss 0.497506  Acc 0.880198 
+[Epoch 15] [seg loss: 0.280248] [seg acc: 0.956493]
+Vali Epoch: [15/100] Loss 0.412376  Acc 0.929058 
+[Epoch 16] [seg loss: 0.254759] [seg acc: 0.960277]
+Vali Epoch: [16/100] Loss 0.430415  Acc 0.907050 
+[Epoch 17] [seg loss: 0.276795] [seg acc: 0.958526]
+Vali Epoch: [17/100] Loss 0.391690  Acc 0.927168 
+[Epoch 18] [seg loss: 0.262522] [seg acc: 0.959467]
+Vali Epoch: [18/100] Loss 0.416326  Acc 0.929842 
+[Epoch 19] [seg loss: 0.248988] [seg acc: 0.963129]
+Vali Epoch: [19/100] Loss 0.390163  Acc 0.941978 
+[Epoch 20] [seg loss: 0.245309] [seg acc: 0.963012]
+Vali Epoch: [20/100] Loss 0.362341  Acc 0.945855 
+[Epoch 21] [seg loss: 0.247554] [seg acc: 0.961590]
+Vali Epoch: [21/100] Loss 0.366985  Acc 0.937651 
+[Epoch 22] [seg loss: 0.250030] [seg acc: 0.962484]
+Vali Epoch: [22/100] Loss 0.410302  Acc 0.903784 
+[Epoch 23] [seg loss: 0.243237] [seg acc: 0.961991]
+Vali Epoch: [23/100] Loss 0.417745  Acc 0.946830 
+[Epoch 24] [seg loss: 0.236115] [seg acc: 0.963225]
+Vali Epoch: [24/100] Loss 0.397280  Acc 0.933439 
+[Epoch 25] [seg loss: 0.231839] [seg acc: 0.964536]
+Vali Epoch: [25/100] Loss 0.416653  Acc 0.944452 
+[Epoch 26] [seg loss: 0.225322] [seg acc: 0.964298]
+Vali Epoch: [26/100] Loss 0.417772  Acc 0.950440 
+[Epoch 27] [seg loss: 0.222768] [seg acc: 0.965780]
+Vali Epoch: [27/100] Loss 0.510312  Acc 0.941143 
+[Epoch 28] [seg loss: 0.226673] [seg acc: 0.965164]
+Vali Epoch: [28/100] Loss 0.367546  Acc 0.948519 
+[Epoch 29] [seg loss: 0.222071] [seg acc: 0.964811]
+Vali Epoch: [29/100] Loss 0.402357  Acc 0.954262 
+ * Best vali seg acc: history = 0.9513, current = 0.9543
+[Epoch 30] [seg loss: 0.220197] [seg acc: 0.964910]
+Vali Epoch: [30/100] Loss 0.378471  Acc 0.938528 
+[Epoch 31] [seg loss: 0.225993] [seg acc: 0.965677]
+Vali Epoch: [31/100] Loss 0.425532  Acc 0.946290 
+[Epoch 32] [seg loss: 0.212132] [seg acc: 0.967098]
+Vali Epoch: [32/100] Loss 0.436999  Acc 0.948091 
+[Epoch 33] [seg loss: 0.208960] [seg acc: 0.966609]
+Vali Epoch: [33/100] Loss 0.373569  Acc 0.937914 
+[Epoch 34] [seg loss: 0.232861] [seg acc: 0.962830]
+Vali Epoch: [34/100] Loss 0.390087  Acc 0.947711 
+[Epoch 35] [seg loss: 0.205261] [seg acc: 0.966894]
+Vali Epoch: [35/100] Loss 0.394211  Acc 0.952172 
+[Epoch 36] [seg loss: 0.220043] [seg acc: 0.962823]
+Vali Epoch: [36/100] Loss 0.500053  Acc 0.945494 
+[Epoch 37] [seg loss: 0.208774] [seg acc: 0.967494]
+Vali Epoch: [37/100] Loss 0.435133  Acc 0.939045 
+[Epoch 38] [seg loss: 0.209740] [seg acc: 0.967278]
+Vali Epoch: [38/100] Loss 0.434216  Acc 0.931554 
+[Epoch 39] [seg loss: 0.203360] [seg acc: 0.967281]
+Vali Epoch: [39/100] Loss 0.481147  Acc 0.948033 
+[Epoch 40] [seg loss: 0.214915] [seg acc: 0.964659]
+Vali Epoch: [40/100] Loss 0.367521  Acc 0.943476 
+[Epoch 41] [seg loss: 0.202676] [seg acc: 0.966111]
+Vali Epoch: [41/100] Loss 0.482682  Acc 0.955629 
+ * Best vali seg acc: history = 0.9543, current = 0.9556
+[Epoch 42] [seg loss: 0.193101] [seg acc: 0.968746]
+Vali Epoch: [42/100] Loss 0.399814  Acc 0.947702 
+[Epoch 43] [seg loss: 0.195886] [seg acc: 0.968086]
+Vali Epoch: [43/100] Loss 0.412612  Acc 0.938014 
+[Epoch 44] [seg loss: 0.212142] [seg acc: 0.965406]
+Vali Epoch: [44/100] Loss 0.349744  Acc 0.947653 
+[Epoch 45] [seg loss: 0.212379] [seg acc: 0.965590]
+Vali Epoch: [45/100] Loss 0.396118  Acc 0.937198 
+[Epoch 46] [seg loss: 0.224148] [seg acc: 0.962759]
+Vali Epoch: [46/100] Loss 0.477202  Acc 0.945093 
+[Epoch 47] [seg loss: 0.226840] [seg acc: 0.964655]
+Vali Epoch: [47/100] Loss 0.398823  Acc 0.930322 
+[Epoch 48] [seg loss: 0.204097] [seg acc: 0.967179]
+Vali Epoch: [48/100] Loss 0.426106  Acc 0.947321 
+[Epoch 49] [seg loss: 0.187729] [seg acc: 0.969088]
+Vali Epoch: [49/100] Loss 0.437213  Acc 0.937352 
+[Epoch 50] [seg loss: 0.191572] [seg acc: 0.968054]
+Vali Epoch: [50/100] Loss 0.408935  Acc 0.948692 
+[Epoch 51] [seg loss: 0.192537] [seg acc: 0.969738]
+Vali Epoch: [51/100] Loss 0.367876  Acc 0.944312 
+[Epoch 52] [seg loss: 0.203187] [seg acc: 0.966188]
+Vali Epoch: [52/100] Loss 0.385712  Acc 0.953419 
+[Epoch 53] [seg loss: 0.186536] [seg acc: 0.969916]
+Vali Epoch: [53/100] Loss 0.477403  Acc 0.951102 
+[Epoch 54] [seg loss: 0.189440] [seg acc: 0.969991]
+Vali Epoch: [54/100] Loss 0.354287  Acc 0.949704 
+[Epoch 55] [seg loss: 0.197386] [seg acc: 0.967940]
+Vali Epoch: [55/100] Loss 0.479820  Acc 0.937373 
+[Epoch 56] [seg loss: 0.206116] [seg acc: 0.965889]
+Vali Epoch: [56/100] Loss 0.348050  Acc 0.931324 
+[Epoch 57] [seg loss: 0.200472] [seg acc: 0.966648]
+Vali Epoch: [57/100] Loss 0.370320  Acc 0.940270 
+[Epoch 58] [seg loss: 0.189153] [seg acc: 0.969247]
+Vali Epoch: [58/100] Loss 0.371599  Acc 0.952699 
+[Epoch 59] [seg loss: 0.182917] [seg acc: 0.969246]
+Vali Epoch: [59/100] Loss 0.448005  Acc 0.952917 
+[Epoch 60] [seg loss: 0.182067] [seg acc: 0.970236]
+Vali Epoch: [60/100] Loss 0.410657  Acc 0.947738 
+[Epoch 61] [seg loss: 0.185856] [seg acc: 0.968632]
+Vali Epoch: [61/100] Loss 0.377112  Acc 0.945325 
+load file ../../log/ISIC2017_isicgen/Integrate_Model_Seg_Ensemble_Fusion/none/budget_1/gen_0_run_gammar_learn_21/checkpoint/iter_0_best_model.pt
+load file ../../log/ISIC2017_isicgen/Integrate_Model_Seg_Ensemble_Fusion/none/budget_1/gen_0_run_gammar_learn_21/checkpoint/iter_0_best_optim.opt
+Decaying the learning ratio to 0.00001000
+Decaying the learning ratio to 0.00001000
+[Epoch 62] [seg loss: 0.189523] [seg acc: 0.970517]
+Vali Epoch: [62/100] Loss 0.428699  Acc 0.955204 
+[Epoch 63] [seg loss: 0.184644] [seg acc: 0.970161]
+Vali Epoch: [63/100] Loss 0.388254  Acc 0.953504 
+[Epoch 64] [seg loss: 0.181679] [seg acc: 0.971374]
+Vali Epoch: [64/100] Loss 0.415233  Acc 0.956433 
+ * Best vali seg acc: history = 0.9556, current = 0.9564
+[Epoch 65] [seg loss: 0.179027] [seg acc: 0.971710]
+Vali Epoch: [65/100] Loss 0.436125  Acc 0.957277 
+ * Best vali seg acc: history = 0.9564, current = 0.9573
+[Epoch 66] [seg loss: 0.178955] [seg acc: 0.970917]
+Vali Epoch: [66/100] Loss 0.397430  Acc 0.956480 
+[Epoch 67] [seg loss: 0.175974] [seg acc: 0.972486]
+Vali Epoch: [67/100] Loss 0.427887  Acc 0.957230 
+[Epoch 68] [seg loss: 0.176338] [seg acc: 0.971598]
+Vali Epoch: [68/100] Loss 0.419692  Acc 0.958180 
+ * Best vali seg acc: history = 0.9573, current = 0.9582
+[Epoch 69] [seg loss: 0.173706] [seg acc: 0.972650]
+Vali Epoch: [69/100] Loss 0.439818  Acc 0.956198 
+[Epoch 70] [seg loss: 0.171988] [seg acc: 0.972466]
+Vali Epoch: [70/100] Loss 0.406685  Acc 0.957273 
+[Epoch 71] [seg loss: 0.174734] [seg acc: 0.970886]
+Vali Epoch: [71/100] Loss 0.404195  Acc 0.956808 
+[Epoch 72] [seg loss: 0.171089] [seg acc: 0.972491]
+Vali Epoch: [72/100] Loss 0.423967  Acc 0.957500 
+[Epoch 73] [seg loss: 0.173801] [seg acc: 0.972344]
+Vali Epoch: [73/100] Loss 0.443688  Acc 0.958007 
+[Epoch 74] [seg loss: 0.172102] [seg acc: 0.972050]
+Vali Epoch: [74/100] Loss 0.387927  Acc 0.957613 
+[Epoch 75] [seg loss: 0.167980] [seg acc: 0.973263]
+Vali Epoch: [75/100] Loss 0.435862  Acc 0.957706 
+[Epoch 76] [seg loss: 0.169615] [seg acc: 0.973373]
+Vali Epoch: [76/100] Loss 0.403853  Acc 0.959053 
+ * Best vali seg acc: history = 0.9582, current = 0.9591
+[Epoch 77] [seg loss: 0.166431] [seg acc: 0.973250]
+Vali Epoch: [77/100] Loss 0.405867  Acc 0.958375 
+[Epoch 78] [seg loss: 0.172323] [seg acc: 0.972671]
+Vali Epoch: [78/100] Loss 0.376861  Acc 0.958230 
+[Epoch 79] [seg loss: 0.165117] [seg acc: 0.973597]
+Vali Epoch: [79/100] Loss 0.380931  Acc 0.958880 
+[Epoch 80] [seg loss: 0.166686] [seg acc: 0.973678]
+Vali Epoch: [80/100] Loss 0.427431  Acc 0.958985 
+[Epoch 81] [seg loss: 0.165827] [seg acc: 0.973167]
+Vali Epoch: [81/100] Loss 0.394817  Acc 0.958108 
+[Epoch 82] [seg loss: 0.165957] [seg acc: 0.972999]
+Vali Epoch: [82/100] Loss 0.404139  Acc 0.958549 
+[Epoch 83] [seg loss: 0.163016] [seg acc: 0.974469]
+Vali Epoch: [83/100] Loss 0.435697  Acc 0.957166 
+[Epoch 84] [seg loss: 0.168734] [seg acc: 0.973354]
+Vali Epoch: [84/100] Loss 0.398007  Acc 0.959691 
+ * Best vali seg acc: history = 0.9591, current = 0.9597
+[Epoch 85] [seg loss: 0.167131] [seg acc: 0.972697]
+Vali Epoch: [85/100] Loss 0.416204  Acc 0.958461 
+[Epoch 86] [seg loss: 0.164939] [seg acc: 0.973288]
+Vali Epoch: [86/100] Loss 0.420386  Acc 0.958844 
+[Epoch 87] [seg loss: 0.162285] [seg acc: 0.974392]
+Vali Epoch: [87/100] Loss 0.451828  Acc 0.957487 
+[Epoch 88] [seg loss: 0.161263] [seg acc: 0.974377]
+Vali Epoch: [88/100] Loss 0.432635  Acc 0.957226 
+[Epoch 89] [seg loss: 0.161564] [seg acc: 0.973808]
+Vali Epoch: [89/100] Loss 0.425533  Acc 0.958609 
+[Epoch 90] [seg loss: 0.165540] [seg acc: 0.973891]
+Vali Epoch: [90/100] Loss 0.391914  Acc 0.958795 
+[Epoch 91] [seg loss: 0.162276] [seg acc: 0.972937]
+Vali Epoch: [91/100] Loss 0.415875  Acc 0.958916 
+[Epoch 92] [seg loss: 0.164156] [seg acc: 0.973844]
+Vali Epoch: [92/100] Loss 0.393263  Acc 0.956285 
+[Epoch 93] [seg loss: 0.163483] [seg acc: 0.973757]
+Vali Epoch: [93/100] Loss 0.411010  Acc 0.954793 
+[Epoch 94] [seg loss: 0.158924] [seg acc: 0.974575]
+Vali Epoch: [94/100] Loss 0.428109  Acc 0.957185 
+[Epoch 95] [seg loss: 0.159529] [seg acc: 0.974409]
+Vali Epoch: [95/100] Loss 0.410604  Acc 0.956879 
+[Epoch 96] [seg loss: 0.159300] [seg acc: 0.974345]
+Vali Epoch: [96/100] Loss 0.437737  Acc 0.958462 
+[Epoch 97] [seg loss: 0.159624] [seg acc: 0.974748]
+Vali Epoch: [97/100] Loss 0.417819  Acc 0.957696 
+[Epoch 98] [seg loss: 0.157705] [seg acc: 0.974344]
+Vali Epoch: [98/100] Loss 0.451212  Acc 0.957342 
+[Epoch 99] [seg loss: 0.161323] [seg acc: 0.973805]
+Vali Epoch: [99/100] Loss 0.412682  Acc 0.956813 
+
+-----------load best state of model -----------
+load file ../../log/ISIC2017_isicgen/Integrate_Model_Seg_Ensemble_Fusion/none/budget_1/gen_0_run_gammar_learn_21/checkpoint/iter_0_best_model.pt
+
+----------- TRAINING FINISHED -----------

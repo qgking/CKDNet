@@ -1,6 +1,6 @@
-### Introduction
+### CKDNet
 
-'[Cascade knowledge diffusion network for skin lesion diagnosis and segmentation](https://doi.org/10.1016/j.asoc.2020.106881)' published in Applied Soft Computing 
+**Cascade knowledge diffusion network for skin lesion diagnosis and segmentation**(https://doi.org/10.1016/j.asoc.2020.106881) published in Applied Soft Computing
 
 by [Qiangguo Jin](https://scholar.google.com/citations?user=USoKG48AAAAJ), [Hui Cui](https://scholars.latrobe.edu.au/display/lcui), [Changming Sun](https://vision-cdc.csiro.au/changming.sun/), [Zhaopeng Meng](http://cic.tju.edu.cn/info/1170/2451.htm), [Ran Su](http://www.escience.cn/people/suran/index.html). 
 
@@ -18,12 +18,6 @@ CKDNet.
 seborrheic keratosis (SBK), and nevus (NEV). Image name and lesion type are listed at the top of each image. Ground truth and our segmentation
 results are shown by green and blue contours.
 
-### Usage
- - [ ] Detailed usage instruction
-  
-### Training
-
-### Testing
 
 ### Dataset
 [ISIC2017](https://challenge.isic-archive.com/landing/2017),[ISIC2018](https://challenge.isic-archive.com/landing/2018)
@@ -48,4 +42,4 @@ If the code is helpful for your research, please consider citing:
 
 ### Questions
 
-Please contact 'qgking@tju.edu.cn'
+General questions, please contact 'qgking@tju.edu.cn'

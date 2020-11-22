@@ -1,0 +1,55 @@
+[Network]
+model=Integrate_Model_Cls_Ensemble_CAM_Att_v1
+#model_cls=Integrate_Model_Cls_Ensemble,Integrate_Model_Cls_Ensemble_CAM_Att,Integrate_Model_Cls_Ensemble_Att,Integrate_Model_Cls_Ensemble_CAM_Att_v1
+backbone=resnet101
+cls_classes=3
+train_branch=cls
+
+[Run]
+default_cls_label_size=2000
+default_seg_label_size=2000
+
+N_epochs = 100
+run_num=0
+gpu = 0
+
+# number of active learning iteration 6, 9 for all the sample
+nb_active_learning_iter = 1
+
+#-------------------------------------------------------------
+
+load_best_epoch=True
+train_cls_batch_size = 8
+train_seg_batch_size = 8
+test_cls_batch_size = 8
+test_seg_batch_size = 8
+update_every = 4
+workers = 16
+printfreq=1
+gpu_count=0
+
+[Data]
+patch_x = 224
+patch_y = 224
+data_name= ISIC2017
+data_branch= isicgen
+
+
+[Optimizer]
+learning_algorithm = adam
+learning_rate = 1e-4
+backbone_learning_rate = 1e-4
+epsilon = 1e-12
+min_lrate = 1e-8
+clip = 10.0
+
+[Save]
+save_dir = ../../log/${Data:data_name}_${Data:data_branch}/${Network:model}/${Active:active_strategy}/budget_${Run:nb_active_learning_iter}/gen_${Run:gpu}_run_${Run:run_num}
+save_model_path = ${save_dir}/checkpoint
+config_file = ${save_dir}/configuration.txt
+submission_dir =  ${load_dir}/submissions
+load_dir = ${Save:save_dir}
+load_model_path = ${load_dir}/checkpoint
+tmp_dir=${save_dir}/tmp
+tensorboard_dir=${save_dir}/tensorboard
+log_file=${save_dir}/train_log.txt

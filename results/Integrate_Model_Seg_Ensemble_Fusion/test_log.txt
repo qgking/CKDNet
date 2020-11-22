@@ -1,0 +1,17 @@
+Mutual Help
+data name  ISIC2017
+data size  224
+load ../../../medical_data/ISIC_2017_Skin_Lesion/cache/task_test_images_224.npy
+ISICTask1TestDataset data size: 600
+loaded ../../log/ISIC2017_isicgen/coarse_seg_model.pt
+loaded ../../log/ISIC2017_isicgen/Integrate_Model_Cls_Ensemble_CAM_Att.pt
+
+-----------load best state of model -----------
+load file ../../log/ISIC2017_isicgen/Integrate_Model_Seg_Ensemble_Fusion/none/budget_1/gen_0_run_gammar_learn_21_best/checkpoint/iter_0_best_model.pt
+
+Jaccard: 0.800374967   
+F1: 0.876616234   
+ACCURACY: 0.946100908   
+SENSITIVITY: 0.887066523   
+SPECIFICITY: 0.960655904   
+DICESCORE: 0.876616719   
