@@ -341,18 +341,6 @@ loaded ../../log/ISIC2017_isicgen/coarse_seg_model.pt
 -----------load best state of model -----------
 load ../../log/ISIC2017_isicgen/Integrate_Model_Cls_Ensemble_CAM_Att/none/budget_1/gen_3_run_7/checkpoint/iter_0_best_model.pt
 ----------Task : 1 Metric----------
-AUC: 0.8389694041867954
-ACCURACY: 0.7966666666666666
-SENSITIVITY: 0.6495726495726496
-SPECIFICITY: 0.8322981366459627
-PRECISION: 0.6027468236330038
-----------Task : 2 Metric----------
-AUC: 0.932962962962963
-ACCURACY: 0.9133333333333333
-SENSITIVITY: 0.7222222222222222
-SPECIFICITY: 0.9470588235294117
-PRECISION: 0.7635594526524285
-----------Task : 1 Metric----------
 AUC: 0.9050273398099484
 ACCURACY: 0.8816666666666667
 SENSITIVITY: 0.7008547008547008
